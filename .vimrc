@@ -5,6 +5,8 @@ filetype plugin indent on
 colorscheme quantum
 let g:quantum_black=1
 let g:quantum_italics=1
+set background=dark
+set bg=dark
 
 " line number
 set number
