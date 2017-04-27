@@ -12,3 +12,10 @@ set number
 " NERDTree on the right side
 let g:NERDTreeWinPos = "right"
 let g:airline_theme='quantum'
+
+" NERDTree show hidden files
+let NERDTreeShowHidden=1
+
+" tabulation and space
+set tabstop=2
+
