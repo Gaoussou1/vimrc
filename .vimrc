@@ -1,12 +1,16 @@
-execute pathogen#infect()
+call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme quantum
-let g:quantum_black=1
-let g:quantum_italics=1
-set background=dark
-set bg=dark
+"colorscheme quantum
+color dracula 
+"set termguicolors
+"set background=dark
+"set bg=dark
+"set term=screen-256color
+"let base16colorspace=256        " Access colors present in 256 colorspace
+"let g:quantum_black=1
+"let g:quantum_italics=1
 
 " line number
 set number
@@ -41,3 +45,4 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
+
