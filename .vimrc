@@ -24,7 +24,8 @@ let g:airline#extensions#tabline#enabled = 1
 let NERDTreeShowHidden=1
 
 " tabulation and space
-set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 """ Key binding
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
