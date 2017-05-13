@@ -28,7 +28,7 @@ inoremap <silent> <F2> <nop>
 
 set rtp+=/usr/local/lib/python3.6/site-packages/powerline/bindings/vim/
 set laststatus=2
-set guifont=Inconsolata\ for\ Powerline:h18
+set guifont=Inconsolata\ for\ Powerline:h15
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
 set t_Co=256
@@ -36,3 +36,14 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
+
+" vertical line indentation
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#d5d1d1'
+let g:indentLine_char = '|'
+
+" delimitMate
+let delimitMate_expand_cr = 1
+
+" Java Complete
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
