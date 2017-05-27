@@ -8,9 +8,6 @@ let g:quantum_black=1
 silent! colorscheme quantum
 let base16colorspace=256        " Access colors present in 256 colorspace
 
-" line number
-set number
-
 " NERDTree on the right side
 let g:NERDTreeWinPos = "right"
 let g:airline#extensions#tabline#enabled = 1
@@ -21,6 +18,11 @@ let NERDTreeShowHidden=1
 " tabulation and space
 set shiftwidth=2
 set softtabstop=2
+set autoindent
+set cindent
+set expandtab
+set number
+set number
 
 " Key binding
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
@@ -47,3 +49,6 @@ let delimitMate_expand_cr = 1
 
 " Java Complete
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+:set t_ut=
+
