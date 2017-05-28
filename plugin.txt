@@ -1,0 +1,13 @@
+- ctrlp
+- delimitMate
+- dracula-theme
+- indentLine
+- moriarty
+- nerdtree
+- powerline
+- sparkup
+- supertab
+- vim-colors
+- vim-javascript
+- vim-quantum
+- vim-surround
