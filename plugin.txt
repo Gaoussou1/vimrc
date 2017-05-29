@@ -11,3 +11,6 @@
 - vim-javascript
 - vim-quantum
 - vim-surround
+- vim-commentary
+- typescript-vim
+
