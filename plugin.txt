@@ -13,4 +13,6 @@
 - vim-surround
 - vim-commentary
 - typescript-vim
-
+- youcompleteme 
+- supertab
+- ultisnips

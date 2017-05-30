@@ -50,5 +50,11 @@ let delimitMate_expand_cr = 1
 " Java Complete
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 :set t_ut=
+
 
