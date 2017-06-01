@@ -50,11 +50,19 @@ let delimitMate_expand_cr = 1
 " Java Complete
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
-" Ultisnips
+"tmux background fix
+:set t_ut=
+
+" "UltiSipets Stuffs
+let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-:set t_ut=
+
+"YCM
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
 
 
