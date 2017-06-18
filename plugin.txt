@@ -13,6 +13,23 @@
 - vim-surround
 - vim-commentary
 - typescript-vim
+
 - youcompleteme 
 - supertab
 - ultisnips
+
+cd ~/.vim/bundle
+git clone https://github.com/joom/vim-commentary
+git clone https://github.com/anyakichi/vim-surround
+git clone https://github.com/leafgarland/typescript-vim
+git clone https://github.com/spf13/vim-colors
+git clone https://github.com/pangloss/vim-javascript
+git clone https://github.com/tyrannicaltoucan/vim-quantum
+git clone https://github.com/aliou/moriarty.vim
+git clone https://github.com/yggdroot/indentline
+git clone https://github.com/raimondi/delimitmate
+git clone https://github.com/kien/ctrlp.vim
+git clone https://github.com/ervandew/supertab
+git clone https://github.com/rstacruz/sparkup
+git clone https://github.com/lokaltog/vim-powerline
+git clone https://github.com/scrooloose/nerdtree
